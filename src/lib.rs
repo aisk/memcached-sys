@@ -107,7 +107,7 @@ pub type memcached_hash_t = Enum_memcached_hash_t;
 pub const MEMCACHED_CONNECTION_SOCKET_CREATE_FAILURE: Enum_memcached_return_t
           =
     Enum_memcached_return_t::MEMCACHED_ERROR;
-#[derive(Clone, Copy)]
+#[derive(Clone, Copy, Debug)]
 #[repr(u32)]
 pub enum Enum_memcached_return_t {
     MEMCACHED_SUCCESS = 0,
