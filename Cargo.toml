@@ -1,0 +1,7 @@
+[package]
+name = "memcached-sys"
+version = "0.1.0"
+authors = ["asaka <aisk1988@gmail.com>"]
+
+[dependencies]
+libc = "0.2.*"
